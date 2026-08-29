@@ -224,13 +224,13 @@ with tab2:
                 with colfr1:
                     with st.container(border=True):
                         st.subheader(f"Financial Health & Risk of {stock_1}")
-                        st.metric(label="Debt-to_Equity",value=f"{de1}")
+                        st.metric(label="Debt-to-Equity",value=f"{de1}")
                         st.metric(label="Current Ratio",value=f"{cr1}")
 
                 with colfr2:
                     with st.container(border=True):
                         st.subheader(f"Financial Health & Risk of {stock_2}")
-                        st.metric(label="Debt-to_Equity",value=f"{de2}")
+                        st.metric(label="Debt-to-Equity",value=f"{de2}")
                         st.metric(label="Current Ratio",value=f"{cr2}")
 
                 st.divider()
