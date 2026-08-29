@@ -22,7 +22,7 @@ if side:
         st.text("For indian stocks NSE(National Stock Exchange) and BSE(Bombay Stock Exchange) is use as NS and BS respectively.")
         st.text("To compare two stocks one should evaluate the terms like\n1)Valuation ratios \n2)Profitability & Performance \nFinancial Health & Risk \n4)Dividend & Returns \n5)Price Performance & HIstory")
         
-tab1,tab2=st.tabs(["About stock","Compare two stock"])
+tab1,tab2=st.tabs(["About stock","Compare two stocks"])
 with tab1:
     a=st.text_input("Enter ticker of stock",placeholder="Enter ticker (eg.:-MSFT,RELIANCE.NS)")
     shows=st.button("Get Stock Info",type="primary")
