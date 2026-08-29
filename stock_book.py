@@ -136,10 +136,10 @@ with tab2:
 
                 if isinstance(marcap_2,(int,float)):
                     marcap=f"{marcap_2:,}"
-                st.divider()
+                    
+                st.subheader("🏢 Company Info")
                 column_1,column_2=st.columns(2)
 
-                st.subheader("🏢 Company Info")
                 with column_1:
                     with st.container(border=True):
                         st.subheader(f"▶️ Company Info of {dn_1}")
