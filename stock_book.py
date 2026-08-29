@@ -7,7 +7,7 @@ st.set_page_config(page_icon="📈",page_title="Welcome to stock book")
 st.title("📈 StockBook")
 st.caption("To know about application visit sidebar which located at top left corner (>>).")
 st.caption("Enter stock ticker,If information not found or N/A shown it means ticker is incorrect check it again.")
-st.caption("In comparison tab for better evaluation and understanding switch to desktop view")
+st.caption("In comparison tab for better evaluation and understanding switch to desktop view.")
 side=st.sidebar
 if side:
     with st.sidebar:
